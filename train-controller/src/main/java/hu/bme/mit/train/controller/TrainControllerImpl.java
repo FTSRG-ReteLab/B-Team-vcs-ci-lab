@@ -28,6 +28,7 @@ public class TrainControllerImpl implements TrainController {
 		return referenceSpeed;
 	}
 
+	//Sets the maximum speed of the train.
 	@Override
 	public void setSpeedLimit(int speedLimit) {
 		this.speedLimit = speedLimit;
