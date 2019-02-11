@@ -1,6 +1,12 @@
 subprojects {
   apply plugin: 'java'
 
+  jar {
+      manifest {
+          attributes 'Main-Class': 'hu.bme.mit.train.Controller'
+      }
+  }
+
   repositories {
     jcenter()
   }
